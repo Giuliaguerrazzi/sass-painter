@@ -11,40 +11,55 @@ body {
 header {
   background: #000;
 }
-
 header .icon {
-  height: 95px;
   display: flex;
   flex-direction: column;
   color: #989898;
   width: 1200px;
   margin: 0 auto;
 }
-
-header ul {
+header .icon ul {
   display: flex;
   justify-content: flex-end;
   padding: 15px;
 }
-
-header li {
+header .icon li {
   list-style: none;
   margin-left: 7px;
 }
-
-header li:hover {
-  color: white;
+header .icon li:hover {
+  color: #fff;
   cursor: pointer;
   text-decoration: underline;
 }
-
-header span {
+header .icon span {
   font-size: 12px;
 }
-
-header .fas {
+header .icon .fas {
   color: #009cff;
   font-size: 15px;
   margin-left: 7px;
 }
+header .menu {
+  color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+header .menu ul {
+  display: flex;
+  align-items: center;
+}
+header .menu li {
+  list-style: none;
+  padding: 20px 25px;
+  font-size: 15px;
+}
+header .menu li img {
+  width: 85%;
+}
 
+.jumbotron {
+  background-image: url("../../images/hero.jpg");
+  height: 450px;
+  background-position: top;
+}

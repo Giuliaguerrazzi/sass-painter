@@ -1,37 +1,63 @@
 header {
     background: $black;
     
-
     .icon {
-        height: 95px;
         display: $flex;
         flex-direction: $column;
         color: $icon-text;
         width: 1200px;
         margin: 0 auto;
-    }
-    ul {
-        display: $flex;
-        justify-content: $end;
-        padding: 15px;
-    }
-    li {
-        list-style: none;
-        margin-left: 7px;
-        &:hover{
-            color: white;
-            cursor: pointer;
-            text-decoration: underline;
-            }
-    }
-       
-    span {
-        font-size: 12px;
-    }
 
-    .fas {
-        color: #009cff;
-        font-size: 15px;
-        margin-left: 7px;
+        ul {
+            display: $flex;
+            justify-content: $end;
+            padding: 15px;
+        }
+        li {
+            list-style: none;
+            margin-left: 7px;
+            &:hover{
+                color: $white;
+                cursor: pointer;
+                text-decoration: underline;
+                }
+        }
+           
+        span {
+            font-size: 12px;
+        }
+    
+        .fas {
+            color: #009cff;
+            font-size: 15px;
+            margin-left: 7px;
+        }
     }
+    
+
+    .menu {
+        color: $white;
+        width: 1200px;
+        margin: 0 auto;
+        ul {
+            display: $flex;
+            align-items: center;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 25px;
+            font-size: 15px;
+
+            img {
+                width: 85%;
+            }
+        }
+    }
+}
+
+.jumbotron {
+    background-image: url('../../images/hero.jpg');
+    height: 450px;
+    background-position: top;
 }
