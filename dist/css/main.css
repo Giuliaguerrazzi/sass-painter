@@ -4,10 +4,47 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 header {
   background: #000;
+}
+
+header .icon {
   height: 95px;
   display: flex;
-  color: #fff;
+  flex-direction: column;
+  color: #989898;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+header li {
+  list-style: none;
+  margin-left: 7px;
+}
+
+header li:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+header span {
+  font-size: 12px;
+}
+
+header .fas {
+  color: #009cff;
+  font-size: 15px;
+  margin-left: 7px;
 }
 
