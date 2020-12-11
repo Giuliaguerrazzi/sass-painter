@@ -163,7 +163,42 @@ header .menu li:hover {
   color: #000;
   border-bottom: 2px solid #000;
 }
-.main-menu .intro {
-  background: red;
-  height: 50px;
+
+.intro {
+  background-image: url("../../images/intro.jpg");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.intro .text {
+  color: #fff;
+  padding-top: 60px;
+}
+.intro .text h2 {
+  font-size: 40px;
+}
+.intro .text p {
+  margin-top: 20px;
+}
+.intro .text .quick-start {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.intro .text .quick-start img {
+  width: 3%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.intro .cover {
+  width: 1000px;
+  height: 570px;
+  margin-top: 50px;
+}
+.intro .cover-image {
+  z-index: 2;
+  width: 925px;
+  height: 535px;
 }
