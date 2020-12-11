@@ -8,6 +8,11 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 li {
   list-style: none;
 }
@@ -69,7 +74,8 @@ header .menu li img {
   width: 85%;
 }
 header .menu li:hover {
-  color: #989898;
+  background: #fff;
+  color: #000;
   cursor: pointer;
 }
 
@@ -79,8 +85,6 @@ header .menu li:hover {
   background-position: top;
 }
 .jumbotron .container {
-  width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
 }
@@ -139,4 +143,27 @@ header .menu li:hover {
   padding: 15px;
   width: 95%;
   margin: 20px auto;
+}
+
+.main-menu {
+  height: 55px;
+  background: #e6e6e6;
+}
+.main-menu ul {
+  display: flex;
+}
+.main-menu ul li {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  line-height: 30px;
+  color: #666;
+}
+.main-menu ul li:hover {
+  background-color: #eee;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+.main-menu .intro {
+  background: red;
+  height: 50px;
 }
