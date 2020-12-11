@@ -78,6 +78,24 @@ header {
             i {
                 color: $icon-text;
             }
+
+            .btn {
+                background: #666;
+                color: $white;
+                margin-top: 20px;
+                position: relative;
+                padding: 10px 30px;
+
+                i {
+                    color: $white;
+                    font-size: 22px;
+                    position: absolute;
+                    right: 3px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
         }
         
         .right {
@@ -88,15 +106,35 @@ header {
             margin-top: 15px;
             margin-left: 70px;
             color: $white;
-            display: $flex;
-            justify-content: space-between;
+            
 
-            .money {
-                padding: 20px;
+            .money-box {
+                display: $flex;
+                justify-content: space-between;
+
+                .money {
+                    padding: 20px;
+                    margin-top: 20px
+                }
+    
+                .days {
+                    padding: 15px;
+                }
+            }
+           
+            .btn {
+                background: $icon-color;
+                color: $white;
+                margin-left: 20px;
+                padding: 10px 35px;
             }
 
-            .days {
+            .white-box {
+                background: $white;
+                color: $black;
                 padding: 15px;
+                width: 95%;
+                margin: 20px auto;
             }
         }
     }

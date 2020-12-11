@@ -11,3 +11,12 @@ body {
 li {
     list-style: none;
 }
+
+.btn {
+    border-radius: 0;
+    border: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px 7px;
+    cursor: pointer;
+}

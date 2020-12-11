@@ -12,6 +12,15 @@ li {
   list-style: none;
 }
 
+.btn {
+  border-radius: 0;
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 20px 7px;
+  cursor: pointer;
+}
+
 header {
   background: #000;
 }
@@ -83,6 +92,21 @@ header .menu li:hover {
 .jumbotron .container .left i {
   color: #989898;
 }
+.jumbotron .container .left .btn {
+  background: #666;
+  color: #fff;
+  margin-top: 20px;
+  position: relative;
+  padding: 10px 30px;
+}
+.jumbotron .container .left .btn i {
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .jumbotron .container .right {
   width: 400px;
   height: 435px;
@@ -91,12 +115,28 @@ header .menu li:hover {
   margin-top: 15px;
   margin-left: 70px;
   color: #fff;
+}
+.jumbotron .container .right .money-box {
   display: flex;
   justify-content: space-between;
 }
-.jumbotron .container .right .money {
+.jumbotron .container .right .money-box .money {
   padding: 20px;
+  margin-top: 20px;
 }
-.jumbotron .container .right .days {
+.jumbotron .container .right .money-box .days {
   padding: 15px;
+}
+.jumbotron .container .right .btn {
+  background: #009cff;
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px 35px;
+}
+.jumbotron .container .right .white-box {
+  background: #fff;
+  color: #000;
+  padding: 15px;
+  width: 95%;
+  margin: 20px auto;
 }
