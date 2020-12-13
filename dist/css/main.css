@@ -37,6 +37,13 @@ li {
   margin-top: 20px;
 }
 
+.background-scroll {
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
 header {
   background: #000;
 }
@@ -237,4 +244,8 @@ header .menu li:hover {
   width: 970px;
   height: 600px;
   margin: 65px 0;
+}
+
+.image-scroll {
+  background-image: url("../../images/bg-03.jpg");
 }
