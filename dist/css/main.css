@@ -26,6 +26,17 @@ li {
   cursor: pointer;
 }
 
+.main-container {
+  text-align: center;
+  padding-top: 60px;
+}
+.main-container h2 {
+  font-size: 40px;
+}
+.main-container p {
+  margin-top: 20px;
+}
+
 header {
   background: #000;
 }
@@ -174,13 +185,6 @@ header .menu li:hover {
 }
 .intro .text {
   color: #fff;
-  padding-top: 60px;
-}
-.intro .text h2 {
-  font-size: 40px;
-}
-.intro .text p {
-  margin-top: 20px;
 }
 .intro .text .quick-start {
   display: flex;
@@ -208,4 +212,29 @@ header .menu li:hover {
   color: #fff;
   left: 47%;
   top: 46%;
+}
+
+.gallery {
+  background: #fff;
+  color: #000;
+}
+.gallery .gallery-images {
+  position: relative;
+}
+.gallery .gallery-images .fas {
+  position: absolute;
+  top: 50%;
+  color: orange;
+  font-size: 30px;
+}
+.gallery .gallery-images .fa-chevron-circle-left {
+  left: 65px;
+}
+.gallery .gallery-images .fa-chevron-circle-right {
+  right: 65px;
+}
+.gallery .gallery-images img {
+  width: 970px;
+  height: 600px;
+  margin: 65px 0;
 }

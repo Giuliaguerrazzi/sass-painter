@@ -31,13 +31,7 @@
 
     .text {
         color: $white;
-        padding-top: 60px;
-        h2 {
-            font-size: 40px;
-        }
-        p {
-            margin-top: 20px;
-        }
+
         .quick-start {
           display: $flex;
           justify-content: center;
@@ -73,3 +67,34 @@
     }
 
 }
+
+.gallery {   
+    background: $white;
+    color: $black;
+
+    .gallery-images {
+        position: relative;
+
+        .fas {
+            position: absolute;
+            top: 50%;
+            color: orange;
+            font-size: 30px;
+        }
+
+        .fa-chevron-circle-left {
+            left: 65px;
+        }
+        
+        .fa-chevron-circle-right {
+            right: 65px;
+        }
+        
+        img {
+            width: 970px;
+            height: 600px;
+            margin: 65px 0;
+        }
+    }    
+   
+}    
