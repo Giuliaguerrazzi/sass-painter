@@ -90,15 +90,50 @@
             right: 65px;
         }
         
-        img {
-            width: 970px;
-            height: 600px;
-            margin: 65px 0;
-        }
+      img {
+        width: 970px;
+        height: 600px;
+      }
     }    
    
 } 
 
 .image-scroll {
     background-image: url('../../images/bg-03.jpg');
+}
+
+.tool {
+        background: #222;
+        color: $white;
+        text-align: center;
+        
+        img {
+            width: 770px;
+            height: 450px;
+        }
+}
+
+.canvas {
+    margin-bottom: 80px;
+
+    .format-text {
+        margin-right: 50px;       
+    }
+    
+    img {
+        width: 670px;
+        height: 515px;
+        margin-left: 20px;
+    }
+
+}
+
+.brushes {
+    padding-bottom: 80px;
+
+    img {
+        width: 670px;
+        height: 500px;
+        margin-right: 40px;
+    }
 }
