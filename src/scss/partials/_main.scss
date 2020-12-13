@@ -53,17 +53,23 @@
                
     }
 
-    .cover {
+    .video {
+        position: relative;
+        .cover {
         width: 1000px;
         height: 570px;
-        margin-top: 50px;
-    }
+        margin-top: 52px;
+        background-image: url('../../images/intro-bg.jpg');
+        background-size: cover;
+        }
 
-    .cover-image {
-        z-index: 2;
-        width: 925px;
-        height: 535px;
+        i {
+        position: absolute;
+        font-size: 90px;
+        color: $white;
+        left: 47%;
+        top: 46%;
+         }
     }
-    
 
 }

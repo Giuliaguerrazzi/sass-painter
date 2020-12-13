@@ -192,13 +192,20 @@ header .menu li:hover {
   margin-right: 15px;
   margin-top: 10px;
 }
-.intro .cover {
+.intro .video {
+  position: relative;
+}
+.intro .video .cover {
   width: 1000px;
   height: 570px;
-  margin-top: 50px;
+  margin-top: 52px;
+  background-image: url("../../images/intro-bg.jpg");
+  background-size: cover;
 }
-.intro .cover-image {
-  z-index: 2;
-  width: 925px;
-  height: 535px;
+.intro .video i {
+  position: absolute;
+  font-size: 90px;
+  color: #fff;
+  left: 47%;
+  top: 46%;
 }
