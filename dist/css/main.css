@@ -299,3 +299,7 @@ header .menu li:hover {
   height: 500px;
   margin-right: 40px;
 }
+
+.image2-scroll {
+  background-image: url("../../images/bg-04.jpg");
+}
